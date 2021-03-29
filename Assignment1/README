@@ -1,0 +1,13 @@
+There are 5 .py files I am submitting :
+
+1- data_prep.py : it is the script I used to create the dataset directory. It does not have any other connection with classifier.py and models. 
+
+2- feature_functions.py : It contains the feature extraction functions that is used in classifier.py
+
+3- utils.py : utility functions that is used in classifier.py such as tokenizing, stemming, data extraction from directories..
+
+4- classifier.py : contains Classifier class
+
+5- main.py : it has a an example run to demonstrate the model
+
+Saved and saved_2 directories contain the saved models.
