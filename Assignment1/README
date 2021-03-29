@@ -1,4 +1,4 @@
-There are 5 .py files I am submitting :
+There are 5 .py files :
 
 1- data_prep.py : it is the script I used to create the dataset directory. It does not have any other connection with classifier.py and models. 
 
@@ -9,5 +9,3 @@ There are 5 .py files I am submitting :
 4- classifier.py : contains Classifier class
 
 5- main.py : it has a an example run to demonstrate the model
-
-Saved and saved_2 directories contain the saved models.
