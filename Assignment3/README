@@ -1,0 +1,16 @@
+basic_training.py : 
+	In this script, I implemented the training of a model by using custom training loops using labelled training data in the format that SpaCy provided in the documentation. However, this format was not viable for conllu format as it was requiring a transfer from conllu to json to this format. I have only put example sentences from the training conllu just to show another possible way of training a model using python script. The model I used in other scripts is trained via command line usage of SpaCy.
+	
+model_usage_example.py:
+	It shows how to use the model in arbitrary generated sentences and displays the dependency relation with diplacy utility provided by SpaCy.
+
+test.py:
+	It loads the trained model, predicts the dependency relations of the docs from the Turkish IMST-test.conllu and outputs the results in conllu form as tr_imst-ud-test-predicted.conllu. However, during the process, it shuffles the data, so I was not able to use the evaluation script provided by CoNll 2018 Shared Task.
+
+non_projective_enUD.py:
+	It is for to detect non projective sentences from UD parTUT treebank. Even though SpaCy detected some non-projective sentences in command prompt, it was not able to detect using other functions provided. But it was able to detect for Turkish IMST treebank
+
+non_projective_tr_UD.py.
+	It reads the Turkish IMST training data and randomly displays a non-projective sentence with displacy utility.
+
+

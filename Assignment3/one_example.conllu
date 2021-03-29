@@ -1,0 +1,5 @@
+#Text:Ali ata bakıyor.
+1	Ali	Ali			_	3	nsubj	_	_
+2	ata	ata			_	1	compound	_	_
+3	bakıyor	bakıyor			_	0	ROOT	_	SpaceAfter=No
+4	.	.			_	3	punct	_	SpaceAfter=No
